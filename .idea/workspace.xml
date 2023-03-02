@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a90a84f8-816d-4134-b7b1-65ceb95f1cc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Main$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/SayingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/SayingEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/famousSaying.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/famousSaying.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SayingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SayingEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/famousSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/famousSaying.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +162,7 @@
       <workItem from="1677546275904" duration="17599000" />
       <workItem from="1677660807690" duration="604000" />
       <workItem from="1677715595054" duration="6027000" />
-      <workItem from="1677721668131" duration="2948000" />
+      <workItem from="1677721668131" duration="3269000" />
     </task>
     <servers />
   </component>

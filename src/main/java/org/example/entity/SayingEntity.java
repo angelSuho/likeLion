@@ -2,7 +2,7 @@ package org.example.entity;
 
 public class SayingEntity {
 
-    Long id;
+    int id;
     String saying;
     String author;
 
@@ -13,11 +13,11 @@ public class SayingEntity {
         this.saying = saying;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -33,7 +33,7 @@ public class SayingEntity {
         this.author = author;
     }
 
-    public SayingEntity(Long id, String saying, String author) {
+    public SayingEntity(int id, String saying, String author) {
         this.id = id;
         this.saying = saying;
         this.author = author;

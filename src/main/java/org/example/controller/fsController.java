@@ -1,13 +1,11 @@
 package org.example.controller;
 
 import org.example.service.fsService;
-import org.example.entity.SayingEntity;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Objects;
 
-public class famousSaying {
+public class fsController {
 
     public static void main(String[] args) throws IOException {
         fsService fsService = new fsService();

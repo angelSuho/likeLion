@@ -81,6 +81,7 @@ public class famousSaying {
                     if (famousSaying.getId() == Long.parseLong(tmpt[tmpt.length-1])) {
                         famousSayings.remove(Integer.parseInt(tmpt[tmpt.length-1])-1);
                         System.out.println(Integer.parseInt(tmpt[tmpt.length-1]) + "번 명언이 삭제되었습니다.");
+                        break;
                     }
                     else {
                         System.out.println(tmpt[tmpt.length - 1] + "번 명언은 존재하지 않습니다.");
@@ -104,9 +105,13 @@ public class famousSaying {
                     }
                 }
             }
+            else if (Objects.equals(s.substring(0,2), "빌드")) {
+                System.out.println("arr.json 파일의 내용이 갱신되었습니다.");
+            }
             System.out.print("명령) ");
             s = bf.readLine();
         }
+
         for (SayingEntity famousSaying : famousSayings) {
             JSONObject jo = new JSONObject();
             jo.put("id", famousSaying.getId());

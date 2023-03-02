@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a90a84f8-816d-4134-b7b1-65ceb95f1cc5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Main$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/SayingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/SayingEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/defenseGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/famousSaying.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/famousSaying.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SayingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SayingEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/famousSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/famousSaying.java" afterDir="false" />
@@ -59,21 +69,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/agsoo/OneDrive/바탕 화면/likeLion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/agsoo/OneDrive/바탕 화면/likeLion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.famousSaying">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -161,7 +174,8 @@
       <workItem from="1677506036249" duration="1650000" />
       <workItem from="1677546275904" duration="17599000" />
       <workItem from="1677660807690" duration="604000" />
-      <workItem from="1677715595054" duration="3355000" />
+      <workItem from="1677715595054" duration="6027000" />
+      <workItem from="1677721668131" duration="2948000" />
     </task>
     <servers />
   </component>

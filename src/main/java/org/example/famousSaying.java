@@ -1,18 +1,57 @@
 package org.example;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONArray;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class famousSaying {
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ParseException {
+        JSONArray objects = new JSONArray();
+        JSONParser parser = new JSONParser();
+
+        ArrayList<SayingEntity> famousSayings = new ArrayList<>();
+
+        File f = new File("C:/Users/agsoo/OneDrive/바탕 화면/likeLion/src/main/java/org/example/arr.json");
+        if (f.exists()) {
+            ArrayList<SayingEntity> list = new ArrayList<>();
+            try {
+                FileReader reader = new FileReader("C:/Users/agsoo/OneDrive/바탕 화면/likeLion/src/main/java/org/example/arr.json");
+                Object obj = parser.parse(reader);
+                JSONArray jsonObject = (JSONArray) obj;
+
+                for (Object o : jsonObject) {
+                    String[] split = o.toString().split(",");
+                    SayingEntity se = new SayingEntity();
+                    for (String s : split) {
+                        String[] strings = s.split(":");
+                        if (strings[0].substring(1, strings[0].length() - 1).equals("id")) {
+                            se.setId(Long.valueOf(strings[1]));
+                        } else if (strings[0].substring(1, strings[0].length() - 1).equals("saying")) {
+                            se.setSaying(strings[1].substring(1,strings[1].length()-2));
+                        } else {
+                            try {
+                                se.setAuthor(strings[1].substring(1,strings[1].length()-1));
+                            } catch (StringIndexOutOfBoundsException ignored) {
+                            }
+                        }
+                    }
+                    list.add(se);
+                }
+                famousSayings = list;
+            } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
+
+    }
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<SayingEntity> famousSayings = new ArrayList<>();
 
         System.out.println("=== 명언 앱 ===");
 
@@ -68,6 +107,17 @@ public class famousSaying {
             System.out.print("명령) ");
             s = bf.readLine();
         }
+        for (SayingEntity famousSaying : famousSayings) {
+            JSONObject jo = new JSONObject();
+            jo.put("id", famousSaying.getId());
+            jo.put("saying", famousSaying.getSaying());
+            jo.put("author", famousSaying.getAuthor());
+            objects.add(jo);
+        }
+        FileWriter fileWriter = new FileWriter("C:/Users/agsoo/OneDrive/바탕 화면/likeLion/src/main/java/org/example/arr.json");
+        fileWriter.write(objects.toJSONString());
+        fileWriter.flush();
+        fileWriter.close();
     }
 }
 

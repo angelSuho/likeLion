@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a90a84f8-816d-4134-b7b1-65ceb95f1cc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/SayingEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/famousSaying.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SayingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/SayingEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/famousSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/famousSaying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/famousSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/famousSaying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/SayingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/SayingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/fsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/fsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

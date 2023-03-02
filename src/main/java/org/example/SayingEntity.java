@@ -6,6 +6,9 @@ public class SayingEntity {
     String saying;
     String author;
 
+    public SayingEntity() {
+    }
+
     public void setSaying(String saying) {
         this.saying = saying;
     }
